@@ -1,55 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bommakanti Vinayak | Projects</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/animation.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ventrox — Projects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <h2>My Projects</h2>
-<div class="yt-grid">
+<header class="nav">
+  <div class="nav__brand">VENTROX</div>
+  <nav class="nav__links">
+    <a href="index.html">Home</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-    <div class="yt-card">
-        <div class="yt-grid"></div>
-        <div class="yt-card-thumb">💻</div>
-        <div class="yt-card-body">
-            <h3>Personal Portfolio Website</h3>
-            <p>Responsive portfolio built with HTML, CSS, and JavaScript to showcase skills and projects.</p>
-            <a href="https://github.com/vinayakbommakanti940-beep" target="_blank" class="btn">View on GitHub</a>
+<main>
+  <section class="page-hero">
+    <p class="page-hero__eyebrow">Projects</p>
+    <h1>Selected work.</h1>
+  </section>
+
+  <section class="projects-page">
+    <article class="project">
+      <div class="project__num">I.</div>
+      <div>
+        <h3>Spam/Ham Email Classifier</h3>
+        <p>Text classification model using Naive Bayes and TF-IDF vectorization
+          to detect spam emails, deployed behind a Flask web interface for
+          live predictions.</p>
+        <div class="project__tags">
+          <span>Python</span><span>scikit-learn</span><span>Flask</span>
         </div>
-    </div>
+      </div>
+    </article>
 
-    <div class="yt-card">
-         <div class="yt-grid"></div>
-    <div class="yt-card-thumb">🤖</div>
-    <div class="yt-card-body">
-        <h3>Spam/Ham Message Classifier</h3>
-        <p>Built a text classification system using Python and scikit-learn to detect spam messages, using TF-IDF feature extraction and a Naive Bayes classifier.</p>
-        <a href="https://github.com/vinayakbommakanti940-beep" target="_blank" class="btn">View on GitHub</a>
-
-        <div class="yt-card">
-    <div class="yt-card-thumb">🔢</div>
-    <div class="yt-card-body">
+    <article class="project">
+      <div class="project__num">II.</div>
+      <div>
         <h3>Handwritten Digit Classifier</h3>
-        <p>Built an image classification model using scikit-learn and a Support Vector Machine to recognize handwritten digits, achieving 99% accuracy on unseen test data.</p>
-        <a href="https://github.com/vinayakbommakanti940-beep" target="_blank" class="btn">View on GitHub</a>
-
-        <div class="yt-card">
-            <div class="yt-card-thumb"></div>
-            <div class="yt-card-body">
-                <h3>AI Portfolio Assistant chatbot</h3>
-                <p>Built an AI-powdered chatbot using Python, scikit-learn, and Flask, applying TF-IDF and cosine similarity for natural language question-matching, with a live web chat interface.</p>
-                <a href="https://github.com/vinayakbommakanti940-beep" target="_blank" class="btn">View on GitHub</a>
-            </div>
+        <p>SVM classifier trained on scikit-learn's digits dataset, reaching
+          98.89% accuracy, with prediction and misclassification plots
+          rendered in matplotlib.</p>
+        <div class="project__tags">
+          <span>Python</span><span>scikit-learn</span><span>matplotlib</span>
         </div>
-    </div>
-</div>
-    </div>
-</div>
-    </div>
+      </div>
+    </article>
 
-</div>
+    <article class="project">
+      <div class="project__num">III.</div>
+      <div>
+        <h3>AI Portfolio Assistant Chatbot</h3>
+        <p>TF-IDF cosine-similarity chatbot that answers questions about my
+          portfolio and projects through a Flask chat interface.</p>
+        <div class="project__tags">
+          <span>Python</span><span>scikit-learn</span><span>Flask</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project__num">IV.</div>
+      <div>
+        <h3>Personal Portfolio Website</h3>
+        <p>Four-page portfolio site built from scratch with a card-based
+          project grid, CSS animations, and 3D tilt effects — deployed live
+          on GitHub Pages.</p>
+        <div class="project__tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>© 2026 Ventrox</span>
+  <span>Built quiet, shipped loud.</span>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

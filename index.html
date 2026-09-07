@@ -1,77 +1,68 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/animation.css">
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <title>Bommakanti Vinayak | Portfolio</title>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ventrox — Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-        <link rel ="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/animation.css">
-        
-        <script src="js/script.js"></script>
-        <script src="js/darkmode.js"></script>
-        <script src="js/contact.js"></script>
-    </head>
+<header class="nav">
+  <div class="nav__brand">VENTROX</div>
+  <nav class="nav__links">
+    <a href="index.html" class="active">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-    
+<main>
+  <section class="hero">
+    <div class="hero__signal" id="signal" aria-hidden="true"></div>
+    <p class="hero__eyebrow">Est. 2026 — signal &gt; noise</p>
+    <h1 class="hero__title">I build the <span>quiet engine</span><br>behind loud ideas.</h1>
+    <p class="hero__sub">I'm Vinayak — I design and ship focused digital products,
+      stripped of clutter, built for the one job they need to do.</p>
+    <a href="contact.html" class="btn">Get in touch →</a>
+  </section>
 
-        <body>
+  <section class="strip">
+    <div class="strip__item"><span>01</span>Design</div>
+    <div class="strip__item"><span>02</span>Build</div>
+    <div class="strip__item"><span>03</span>Ship</div>
+  </section>
 
-    <header class="yt-header">
-        <div class="logo">Vinayak<span>Folio</span></div>
-        <div class="yt-search">
-            <input type="text" placeholder="Search skills, projects...">
-            <button>🔍</button>
-        </div>
-    </header>
-
-    <nav class="yt-sidebar">
-        <a href="index.html">🏠 Home</a>
-        <a href="about.html" class="active">👤 About</a>
-        <a href="projects.html">💻 Projects</a>
-        <a href="contact.html">✉️ Contact</a>
-    </nav>
-
-    <div class="yt-main">
-        <div class="container tilt-card">
-            <img src="https://media.licdn.com/dms/image/v2/D4D03AQFcVuj110a6Pw/profile-displayphoto-scale_200_200/B4DZqXhJWoIgAY-/0/1763478642248?e=2147483647&v=beta&t=ksVbKQhIpZQLhHkMaa7N8-RiaWxItBqWomlPzkMw_nM" alt="Profile Photo" class="profile-img">
-
-            <h1>Bommakanti Vinayak</h1>
-            <h3>AI & Machine Learning Student</h3>
-
-            <h2>About Me</h2>
-            <p>
-                I'm Bommakanti Vinayak, a B.Tech student specializing in Computer Science
-                Engineering with a focus on Artificial Intelligence & Machine Learning at
-                Vaageswari College of Engineering, graduating in 2027 with a current CGPA of 8.22.
-            </p>
-            <p>
-                I'm passionate about building practical, real-world applications using Python,
-                web technologies, and data-driven approaches.
-            </p>
-
-            <h2>Education</h2>
-            <p>
-                <strong>B.Tech in Computer Science and Engineering (AI & ML)</strong><br>
-                Vaageswari College of Engineering<br>
-                Expected Graduation: 2027 &nbsp;|&nbsp; CGPA: 8.22
-            </p>
-
-            <h2>Skills</h2>
-            <div class="icon-badge">HTML</div>
-            <div class="icon-badge">CSS</div>
-            <div class="icon-badge">JS</div>
-            <div class="icon-badge">PY</div>
-            <div class="icon-badge">SQL</div>
-
-            <br><br>
-            <a href="resume_3d_4.pdf" download class="btn">Download Resume</a>
-        </div>
+  <section class="work">
+    <h2 class="section-title">What I do</h2>
+    <div class="work__grid">
+      <article class="card">
+        <div class="card__num">I.</div>
+        <h3>Product landing systems</h3>
+        <p>Marketing sites that load fast, read clearly, and convert — no bloated frameworks required.</p>
+      </article>
+      <article class="card">
+        <div class="card__num">II.</div>
+        <h3>Internal tools</h3>
+        <p>Dashboards and admin panels built around the actual workflow, not a template.</p>
+      </article>
+      <article class="card">
+        <div class="card__num">III.</div>
+        <h3>APIs &amp; automation</h3>
+        <p>Small, reliable backends that do exactly one thing well and stay out of the way.</p>
+      </article>
     </div>
+  </section>
+</main>
 
-    <script src="js/tilt.js"></script>
+<footer class="footer">
+  <span>© 2026 Ventrox</span>
+  <span>Built quiet, shipped loud.</span>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -1,68 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bommakanti Vinayak | About</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/animation.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ventrox — About</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <div class="container">
-        <img src="images/profile.jpg" alt="Profile Photo" class="profile-img">
-        <img src="images/github.png" alt="Github" class="social-icon">
+<header class="nav">
+  <div class="nav__brand">VENTROX</div>
+  <nav class="nav__links">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html" class="active">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-        <h1>Bommakanti Vinayak</h1>
-        <h3>AI & Machine Learning Student</h3>
+<main>
+  <section class="page-hero">
+    <p class="page-hero__eyebrow">About</p>
+    <h1>Doing less, better.</h1>
+  </section>
 
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-
-        <h2>About Me</h2>
-        <p>
-            I'm Bommakanti Vinayak, a B.Tech student specializing in Computer Science
-            Engineering with a focus on Artificial Intelligence & Machine Learning at
-            Vaageswari College of Engineering, graduating in 2027 with a current CGPA of 8.22.
-        </p>
-        <p>
-            I'm passionate about building practical, real-world applications using Python,
-            web technologies, and data-driven approaches. I enjoy learning how AI and
-            Machine Learning can be applied to solve everyday problems, and I love turning
-            ideas into working websites and applications.
-        </p>
-        <p>
-            Outside of coursework, I actively work on personal projects to sharpen my
-            skills — including this very portfolio website — and I'm always looking for
-            opportunities to learn new tools and take part in hackathons and technical fests.
-        </p>
-
-        <h2>Education</h2>
-        <p>
-            <strong>B.Tech in Computer Science and Engineering (AI & ML)</strong><br>
-            Vaageswari College of Engineering<br>
-            Expected Graduation: 2027 &nbsp;|&nbsp; CGPA: 8.22
-        </p>
-
-        <h2>Skills</h2>
-        <div class="icon-badge">HTML</div>
-        <div class="icon-badge">CSS</div>
-        <div class="icon-badge">JS</div>
-        <div class="icon-badge">PY</div>
-        <div class="icon-badge">SQL</div>
-
-        <header class="yt-header"></header>
-        <nav class="yt-sidebar"></nav>
-
-        <div class="yt-main">
-            <div class="container tilt-card"> ... 
-
-        </div>
+  <section class="about-page">
+    <div class="about-page__text">
+      <p>I'm Vinayak, a final-year B.Tech CSE (AI &amp; Machine Learning)
+        student who likes building things end to end — from the interface
+        someone actually clicks on, down to the model or API behind it.</p>
+      <p>I don't chase trends or stack frameworks for their own sake.
+        I pick the simplest tool that does the job well, ship it, and
+        stay around to fix what breaks.</p>
+      <p>This site is where I put projects as I build them — mostly
+        machine learning experiments and small full-stack tools.</p>
     </div>
 
-    </html>
+    <ul class="about-page__list">
+      <li><span>Studying</span><span>B.Tech CSE — AI &amp; ML</span></li>
+      <li><span>Graduating</span><span>2027</span></li>
+      <li><span>Stack</span><span>Python, HTML/CSS/JS, Flask, Node.js</span></li>
+      <li><span>Based in</span><span>Jagtial, Telangana</span></li>
+    </ul>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>© 2026 Ventrox</span>
+  <span>Built quiet, shipped loud.</span>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
